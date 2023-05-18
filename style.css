@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100&family=Instrument+Serif&family=Roboto+Condensed:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+   
+    
+}
+nav .logo{
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    color: rgb(215, 60, 60);
+}
+.home{
+    background-image: url(https://img.freepik.com/premium-photo/modern-black-leather-workspace-with-accessories-wireless-keyboard-copy-space-top-view_67155-19498.jpg);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.homecontent{
+    text-align: center;
+    color: rgb(237, 243, 244);
+    margin-top: 20%;
+    margin-left: 650px;
+    position: absolute;
+    
+}
+.homecontent h1{
+    color:rgb(91, 164, 104);
+}
+.homecontent h2{
+    font-size: 30px;
+    
+}
+.homecontent h3{
+    padding: 15px;
+    font-size:10px;
+}
+.homecontent h3{
+    color: rgb(223, 217, 217);
+    font-size: 30px ;
+
+}
+.homecontent span h4{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    height: 30px;
+    font-size: 20px;
+    width: 190px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    
+    
+}
+#about{
+    margin-left: 8%;
+    margin-top: 13%;
+    margin-right: 8%;
+}
+.heading{
+    text-align: center;
+}
+.heading h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.about-img img{
+    width: 300px;
+    border-radius: 0.5rem;
+    border: 3px solid black;
+    padding: 10px;
+    height: 350px;
+
+}
+.about-text h2{
+    font-size: bold;
+    margin-bottom: 20px;
+}
+.about-text h4{
+    color: green;
+    margin-bottom: 10px;
+}
+.about-text p{
+    text-align: justify;
+    line-height: 30px;
+    padding: 10px 0px;
+}
+#li1{
+    padding: 5px;
+}
+#li2{
+    padding: 5px;
+}
+#li3{
+    padding: 5px;
+}
+.about-text a{
+    background-color: green;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    width: 100px;
+    height: 20px;
+}
+.experience{
+
+    margin-left: 8%;
+    margin-top: 10%;
+    /* position: relative; */
+}
+
+.year{
+    width: 150px;
+    /* height: 30px; */
+    padding: 6px 20px;
+    background-color: brown;
+    border-radius: 30px 0 60px 30px;
+}
+
+.content{
+    margin-top: 10px;
+    width: 500px;
+    height: 200px;
+    background-color: rgb(190, 220, 184);
+    padding: 10px;
+}
+.experience{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.content span{
+    color: brown;
+
+}
+
+.content p{
+    margin-top: 10px;
+}
+
+.exp h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.edu h2{
+
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 400;
+
+}
+
+
+
+
+#contact{
+    /* background-color: rgb(127, 51, 51); */
+    
+    
+    
+
+}
+
+.contact-head h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    color: black;
+}
+
+.icon-div{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    background-color: white;
+}
+.icon i{
+    font-size: 20px;
+    color: rgb(58, 8, 138);
+}
+
+.icon:hover{
+    
+    color: white;
+    background-color: black;
+}
+
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2rem;
+    /* background-color: rgb(127, 51, 51); */
+    margin-top: 10px;
+}
+/* for mobile devices */
+@media only screen and (max-width: 680px) {
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+nav h3{
+    margin-left: 10px;
+    color: black;
+    font-size: 15px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 3px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+
+}
+nav ul li a:hover{
+    color: rgb(207, 77, 77);
+}
+.home{
+  width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    
+}
+.homecontent{
+    text-align: center;
+    color: rgb(237, 243, 244);
+    margin-top: 20%;
+    margin-left: 200px;
+    position: absolute;
+}
+.homecontent h1{
+    color:rgb(91, 164, 104);
+}
+.homecontent h2{
+    font-size: 10px;
+    
+}
+.homecontent h3{
+    padding: 15px;
+    font-size:10px;
+}
+.homecontent h3{
+    color: rgb(223, 217, 217);
+    font-size: 10px ;
+
+}
+.homecontent span h4{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    height: 0px;
+    font-size: 10px;
+    width: 90px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    
+    
+}
+#about{
+    margin-left: 3%;
+    margin-top: 7%;
+    margin-right: 1%;
+}
+.heading{
+    text-align: center;
+}
+.heading h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.about-img img{
+    width: 200px;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    padding: 10px;
+    height: 250px;
+
+}
+.about-text h2{
+    font-size: bold;
+    margin-bottom:5px;
+    font-size: 10px;
+}
+.about-text h4{
+    color: green;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+.about-text p{
+    text-align: justify;
+    line-height: 10px;
+    font-size: 10px;
+}
+#li1{
+    padding: 0px;
+    font-size: 10px;
+}
+#li2{
+    padding: 0px;
+    font-size: 10px;
+}
+#li3{
+    padding: 0px;
+    font-size: 10px;
+}
+.about-text a{
+    background-color: green;
+   
+    height: 0px;
+}
+.experience{
+
+    margin-left: 0%;
+    margin-top: 0%;
+
+ 
+}
+
+.year{
+    width: 40px;
+    padding: 6px 20px;
+    
+    /* border-radius: 30px 0 60px 30px; */
+}
+
+.content{
+    margin-top: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(172, 172, 172);
+    padding: 1px;
+    font-size: 10px;
+}
+.experience{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.content span{
+    color: brown;
+
+}
+
+.content p{
+    margin-top: 10px;
+}
+
+.exp h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.edu h2{
+
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 400;
+
+}
+
+
+
+
+#contact{
+    background-color: rgb(127, 51, 51);
+    
+    
+    
+
+}
+
+.contact-head h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    color: black;
+}
+
+.icon-div{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+.icon{
+    width: 20px;
+    height: 25px;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    background-color: white;
+}
+.icon i{
+    font-size: 20px;
+    color: rgb(58, 8, 138);
+}
+
+.icon:hover{
+    
+    color: white;
+    background-color: black;
+    /* background-image: linear-gradient(to right, red , blue); */
+}
+
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1rem;
+    background-color: rgb(127, 51, 51);
+    margin-top: -50px;
+}
+}
